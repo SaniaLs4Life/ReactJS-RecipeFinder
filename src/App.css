@@ -1,0 +1,38 @@
+body{
+  font-family: 'Comfortaa';
+}
+.col-md-8{
+  border:1px solid #FFF !important;
+  padding:10px;
+}
+.container{
+  margin-top:15px;
+}
+
+.recipe-item{
+  dispay:flex;
+  align-items: center;
+  justify-content: center;
+  margin:10px;
+  padding: 10px;
+}
+.recipe-text{
+  display: inline-block;
+  text-align: left;
+  padding-right: 10px;
+  width: 400px;
+}
+.recipe-img{
+  display: inline-block;
+  right:0;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border:1px solid #EEE;
+  border-radius: 2px;
+}
+.star{
+  cursor: pointer;
+  font-size: 35px;
+  margin-right: 15px;
+}
